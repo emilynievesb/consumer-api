@@ -5,7 +5,7 @@ import { getIcecreamAxios } from "./api/icecream";
 import IcecreamList from "./components/IcecreamList";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [icecreams, setIcecreams] = useState([]);
