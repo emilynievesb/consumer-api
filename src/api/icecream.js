@@ -7,3 +7,9 @@ export const getIcecreamAxios = () => {
     return result.data;
   });
 };
+
+export const createIcecream = async (params) => {
+  const endpoint = "/icecream/create";
+  const icecream = await axios.post(`${API_URL}${endpoint}`, params);
+  console.log(icecream);
+};
